@@ -5,6 +5,17 @@
 //  Copyright (c) 2015 Freshdesk. All rights reserved.
 //
 //  Contact support@hotline.io
+//
+
+#import <UIKit/UIKit.h>
+
+//! Project version number for HotlineIO.
+FOUNDATION_EXPORT double HotlineIOVersionNumber;
+
+//! Project version string for HotlineIO.
+FOUNDATION_EXPORT const unsigned char HotlineIOVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <HotlineIO/PublicHeader.h>
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -23,7 +34,7 @@ enum TagFilterType {
 @interface HotlineConfig : NSObject
 
 /*
- * App ID of your App. This is used to identify the SDK for your app to hotline.io. 
+ * App ID of your App. This is used to identify the SDK for your app to hotline.io.
  * Please see API & App under Settings ( https://web.hotline.io/settings/apisdk ) to get your App ID.
  */
 @property (strong, nonatomic) NSString *appID;
@@ -162,7 +173,7 @@ enum TagFilterType {
 /**
  *  Clear User Data
  *
- *  @discussion Use this function when your user needs to log out of the app . 
+ *  @discussion Use this function when your user needs to log out of the app .
  *  This will clean up all the data associated with the SDK for the user.
  *
  */
@@ -172,8 +183,8 @@ enum TagFilterType {
  *
  *  @discussion Use this function when your user needs to log out of the app .
  *  This will clean up all the data associated with the SDK for the user.
- *  Please use the completion block if you are updating user information or subsequently calling init 
- *  
+ *  Please use the completion block if you are updating user information or subsequently calling init
+ *
  * @param Completion block to be called when clearData is completed
  *
  */
@@ -221,7 +232,7 @@ enum TagFilterType {
  *  @discussion Needs to be called when a push notification is received from Hotline. This will present the conversation if user tapped on a push, or show a drop down notification, or update a currently active conversation screen depending on context.
  *
  *  @param info Dictionary received in didReceiveRemoteNotification for Push Notification.
- *  
+ *
  *  @param appState UIApplicationState object that helps the app be aware of whether it was already active and in the foreground when receiving the push notification, or was opened from the background
  */
 -(void)handleRemoteNotification:(NSDictionary *)info andAppstate:(UIApplicationState)appState;
@@ -246,7 +257,7 @@ enum TagFilterType {
  *  Get the last updated unread messages count.
  *
  *  @discussion This method returns the last updated count of conversations which require the user's attention. This may not always be up to date.
- *  
+ *
  *  @return unread count for messages
  */
 -(NSInteger)unreadCount;
@@ -350,7 +361,7 @@ enum TagFilterType {
  *  @param Title for the list of filtered channels view
  */
 -(void)filterContactUsByTags:(NSArray *) tags withTitle:(NSString *) title;
- 
+
 /**
  *  Preferred navigation bar title
  */
