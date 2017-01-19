@@ -12,8 +12,6 @@
 		B678CDFD1E26C724002ACAC6 /* HLResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B678CDF61E26C724002ACAC6 /* HLResources.bundle */; };
 		B678CDFF1E26C724002ACAC6 /* KonotorModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B678CDF81E26C724002ACAC6 /* KonotorModels.bundle */; };
 		B678CE001E26C724002ACAC6 /* libFDHotlineSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B678CDF91E26C724002ACAC6 /* libFDHotlineSDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
-		B678CE011E26C724002ACAC6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B678CDFA1E26C724002ACAC6 /* LICENSE */; };
-		B678CE021E26C724002ACAC6 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B678CDFB1E26C724002ACAC6 /* ReleaseNotes.txt */; };
 		B68DF0201E2E48BE00CD81DD /* libFDHotlineSDK.a in Resources */ = {isa = PBXBuildFile; fileRef = B678CDF91E26C724002ACAC6 /* libFDHotlineSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -144,8 +142,6 @@
 				B68DF0201E2E48BE00CD81DD /* libFDHotlineSDK.a in Resources */,
 				B678CDFC1E26C724002ACAC6 /* HLLocalization.bundle in Resources */,
 				B678CDFD1E26C724002ACAC6 /* HLResources.bundle in Resources */,
-				B678CE021E26C724002ACAC6 /* ReleaseNotes.txt in Resources */,
-				B678CE011E26C724002ACAC6 /* LICENSE in Resources */,
 				B678CDFF1E26C724002ACAC6 /* KonotorModels.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
