@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B678CDEF1E26C6F1002ACAC6 /* HotlineIO.h in Headers */ = {isa = PBXBuildFile; fileRef = B678CDED1E26C6F1002ACAC6 /* HotlineIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C8EA2A1E7C716C007915D6 /* Hotline.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C8EA291E7C716C007915D6 /* Hotline.h */; };
 		B678CDFC1E26C724002ACAC6 /* HLLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B678CDF51E26C724002ACAC6 /* HLLocalization.bundle */; };
 		B678CDFD1E26C724002ACAC6 /* HLResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B678CDF61E26C724002ACAC6 /* HLResources.bundle */; };
 		B678CDFF1E26C724002ACAC6 /* KonotorModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B678CDF81E26C724002ACAC6 /* KonotorModels.bundle */; };
@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91C8EA291E7C716C007915D6 /* Hotline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotline.h; sourceTree = "<group>"; };
 		B678CDEA1E26C6F1002ACAC6 /* HotlineIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HotlineIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B678CDED1E26C6F1002ACAC6 /* HotlineIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotlineIO.h; sourceTree = "<group>"; };
 		B678CDEE1E26C6F1002ACAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B678CDF51E26C724002ACAC6 /* HLLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HLLocalization.bundle; sourceTree = "<group>"; };
 		B678CDF61E26C724002ACAC6 /* HLResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HLResources.bundle; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 				B678CDF91E26C724002ACAC6 /* libFDHotlineSDK.a */,
 				B678CDFA1E26C724002ACAC6 /* LICENSE */,
 				B678CDFB1E26C724002ACAC6 /* ReleaseNotes.txt */,
-				B678CDED1E26C6F1002ACAC6 /* HotlineIO.h */,
+				91C8EA291E7C716C007915D6 /* Hotline.h */,
 				B678CDEE1E26C6F1002ACAC6 /* Info.plist */,
 			);
 			path = HotlineIO;
@@ -77,7 +77,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B678CDEF1E26C6F1002ACAC6 /* HotlineIO.h in Headers */,
+				91C8EA2A1E7C716C007915D6 /* Hotline.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
