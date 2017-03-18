@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B678CDE91E26C6F1002ACAC6"
-               BuildableName = "HotlineIO.framework"
-               BlueprintName = "HotlineIO"
-               ReferencedContainer = "container:HotlineIO.xcodeproj">
+               BuildableName = "Hotline.framework"
+               BlueprintName = "Hotline"
+               ReferencedContainer = "container:Hotline.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B678CDE91E26C6F1002ACAC6"
-            BuildableName = "HotlineIO.framework"
-            BlueprintName = "HotlineIO"
-            ReferencedContainer = "container:HotlineIO.xcodeproj">
+            BuildableName = "Hotline.framework"
+            BlueprintName = "Hotline"
+            ReferencedContainer = "container:Hotline.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B678CDE91E26C6F1002ACAC6"
-            BuildableName = "HotlineIO.framework"
-            BlueprintName = "HotlineIO"
-            ReferencedContainer = "container:HotlineIO.xcodeproj">
+            BuildableName = "Hotline.framework"
+            BlueprintName = "Hotline"
+            ReferencedContainer = "container:Hotline.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
