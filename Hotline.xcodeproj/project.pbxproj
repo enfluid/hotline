@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9111B55A1E7FC62300CCBC5E /* libFDHotlineSDK.a in Resources */ = {isa = PBXBuildFile; fileRef = 91ECD6801E7C77A000312E00 /* libFDHotlineSDK.a */; };
+		9111B5641E7FCEC300CCBC5E /* Hotline.h in Resources */ = {isa = PBXBuildFile; fileRef = 91ECD67D1E7C77A000312E00 /* Hotline.h */; };
 		91ECD6831E7C77A000312E00 /* HLLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91ECD67B1E7C77A000312E00 /* HLLocalization.bundle */; };
 		91ECD6841E7C77A000312E00 /* HLResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91ECD67C1E7C77A000312E00 /* HLResources.bundle */; };
 		91ECD6851E7C77A000312E00 /* Hotline.h in Headers */ = {isa = PBXBuildFile; fileRef = 91ECD67D1E7C77A000312E00 /* Hotline.h */; };
@@ -142,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9111B5641E7FCEC300CCBC5E /* Hotline.h in Resources */,
 				9111B55A1E7FC62300CCBC5E /* libFDHotlineSDK.a in Resources */,
 				91ECD6831E7C77A000312E00 /* HLLocalization.bundle in Resources */,
 				91ECD6841E7C77A000312E00 /* HLResources.bundle in Resources */,
