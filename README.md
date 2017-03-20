@@ -6,7 +6,7 @@ This repository contains [Hotline iOS SDK](https://github.com/freshdesk/hotline-
 
 * Ours:
 
-    https://github.com/enfluid/hotline-io/blob/develop/HotlineIO/ReleaseNotes.txt
+    https://github.com/enfluid/hotline/blob/master/Hotline/ReleaseNotes.txt
 
 * Theirs:
 
